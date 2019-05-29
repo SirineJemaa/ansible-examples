@@ -6,6 +6,6 @@
       private: no
   tasks:
     - name: create file
-      file: state=touch path=/home/hme/xyz.conf
+      file: state=touch path=/home/centos/xyz.conf
       when: is_true == "true"
 
